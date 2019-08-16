@@ -2,6 +2,8 @@
 
 # does not account for value modifications based on a board
 
+#This satisfies the ability to enter any word and return the point value
+word = input('')
 
 def point_conversion(word):
     # Convert word passed in to uppercase so it can find
@@ -45,4 +47,4 @@ def point_conversion(word):
     return sum([charDict[char] for char in word])
 
 
-print(point_conversion('dog'))
+print(point_conversion('word'))
