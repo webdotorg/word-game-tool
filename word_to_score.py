@@ -3,7 +3,7 @@
 # does not account for value modifications based on a board
 
 #This satisfies the ability to enter any word and return the point value
-word = input('')
+word = input('Please enter your word: ')
 
 def point_conversion(word):
     # Convert word passed in to uppercase so it can find
